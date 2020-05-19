@@ -1,0 +1,26 @@
+{
+  "name": "havoc-v2-client",
+  "version": "1.0.0",
+  "description": "Havoc OS v2 Website Frontend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arna-Maity/havoc-v2-client.git"
+  },
+  "keywords": [
+    "react",
+    "client"
+  ],
+  "author": "Arna Maity",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Arna-Maity/havoc-v2-client/issues"
+  },
+  "homepage": "https://github.com/Arna-Maity/havoc-v2-client#readme",
+  "dependencies": {
+    "react": "^16.13.1"
+  }
+}
