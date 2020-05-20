@@ -4,7 +4,8 @@
   "description": "Havoc OS v2 Website Frontend.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack-cli --mode production"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,18 @@
   },
   "homepage": "https://github.com/Arna-Maity/havoc-v2-client#readme",
   "dependencies": {
-    "react": "^16.13.1"
+    "@material-ui/core": "^4.9.14",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
   }
 }
